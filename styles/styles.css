@@ -1,0 +1,38 @@
+
+body {
+    background-color: bisque;
+    color: darkslategrey;
+}
+
+ul,
+ol,
+p {
+    background-color: burlywood;
+}
+
+em {
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1,
+h2 {
+    font-family: fantasy, Copperplate, Garamond;
+    font-weight: bolder;
+}
+
+h1 {
+    font-size: xx-large;
+    text-align: center;
+}
+
+p,
+li {
+    font-family: sans-serif, Helvetica, Verdana;
+    font-size: larger;
+}

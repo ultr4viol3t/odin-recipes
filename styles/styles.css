@@ -1,38 +1,56 @@
-
 body {
-    background-color: bisque;
-    color: darkslategrey;
+  background-color: bisque;
+  color: darkslategrey;
 }
 
 ul,
 ol,
 p {
-    background-color: burlywood;
+  background-color: burlywood;
+  padding: 0;
+  margin: 0;
 }
 
+
 em {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+    margin-left: 16px;
 }
 
 h1,
 h2 {
-    font-family: fantasy, Copperplate, Garamond;
-    font-weight: bolder;
+  font-family: fantasy, Copperplate, Garamond;
+  font-weight: bolder;
 }
 
 h1 {
-    font-size: xx-large;
-    text-align: center;
+  font-size: xx-large;
+  text-align: center;
+}
+
+h2 {
+    border-bottom: 2px solid;
 }
 
 p,
 li {
-    font-family: sans-serif, Helvetica, Verdana;
-    font-size: larger;
+  font-family: sans-serif, Helvetica, Verdana;
+  font-size: larger;
+}
+.content-block {
+  margin: 0 100px;
+}
+.description-block {
+  background-color: burlywood;
+  padding: 16px;
+  margin: auto auto auto 20px;
 }

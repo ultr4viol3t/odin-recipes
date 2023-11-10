@@ -7,11 +7,13 @@ ul,
 ol,
 p {
   background-color: burlywood;
-  padding: 0;
+  padding: 16px;
   margin: 0;
 }
 
-
+p {
+    margin-left: 26px;
+}
 em {
   font-weight: bold;
 }
